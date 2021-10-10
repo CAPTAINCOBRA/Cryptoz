@@ -7,10 +7,11 @@ const Contact = () => {
     <div>
       <section className="py-3">
         {/* <Heading title="Contact Us" /> */}
-        <div className="display-3 text-wheat contact-custom">
-          Contact Ekansh Baweja
-        </div>
+
         <div className="col-10 col-sm-8 mx-auto my-4">
+          <div className="display-4 text-wheat contact-custom my-3">
+            Contact Ekansh Baweja
+          </div>
           <form action="https://formspree.io/f/xvodyyvo" method="POST">
             <div className="form-group">
               <input

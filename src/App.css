@@ -635,3 +635,8 @@ a:hover {
 .opacity9 {
   opacity: 0.9;
 }
+
+.anticon,
+svg {
+  margin-bottom: 0.5em;
+}

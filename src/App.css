@@ -41,7 +41,7 @@ a:hover {
   padding: 20px;
 }
 .nav-container {
-  /* display: contents;  /* Change eka bug  */
+  display: contents; /* Change eka bug  */
   position: fixed;
   /* position: inherit; Bug */
   left: 0;
@@ -90,19 +90,19 @@ a:hover {
 
 @media screen and (max-width: 1300px) {
   .main {
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 }
 
 @media screen and (max-width: 1170px) {
   .main {
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 }
 
 @media screen and (max-width: 1000px) {
   .main {
-    margin-left: 100px;
+    /* margin-left: 100px; */
   }
 }
 
@@ -118,12 +118,13 @@ a:hover {
 
   .main {
     flex: 1;
-    margin-top: 90px;
+    /* margin-top: 90px; */
     margin-left: 0px;
     margin-right: 10px;
   }
 
   .nav-container {
+    /* display: contents; */
     height: 8vh;
     position: fixed;
     width: 100%;

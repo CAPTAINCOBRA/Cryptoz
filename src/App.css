@@ -30,6 +30,11 @@ a:hover {
   /* flex: 0.2; */
   flex: 0.15;
   background-color: rgb(0, 21, 41);
+  display: block !important;
+  padding-right: 0rem !important;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
 }
 
 .main {
@@ -613,4 +618,20 @@ a:hover {
 
 .linkImage {
   margin-left: 10px;
+}
+
+.py-3 {
+  min-height: 80vh;
+}
+
+.contact-custom {
+  margin-left: 20%;
+}
+
+.btn-custom {
+  opacity: 0.9;
+}
+
+.opacity9 {
+  opacity: 0.9;
 }

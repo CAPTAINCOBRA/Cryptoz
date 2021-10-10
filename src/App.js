@@ -10,6 +10,7 @@ import {
   CryptoDetails,
   Cryptocurrencies,
   Exchanges,
+  Contact,
 } from "./components";
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
               </Route>
               <Route exact path="/news">
                 <News />
+              </Route>
+              <Route exact path="/contact">
+                <Contact />
               </Route>
             </Switch>
           </div>

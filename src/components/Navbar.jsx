@@ -7,6 +7,7 @@ import {
   BulbOutlined,
   FundOutlined,
   MenuOutlined,
+  MailOutlined,
 } from "@ant-design/icons";
 
 import icon from "../images/cryptoz-logo.png";
@@ -65,6 +66,9 @@ const Navbar = () => {
           </Menu.Item>
           <Menu.Item icon={<BulbOutlined />}>
             <Link to="/news">News</Link>
+          </Menu.Item>
+          <Menu.Item icon={<MailOutlined />}>
+            <Link to="/contact">Contact Me</Link>
           </Menu.Item>
         </Menu>
       )}

@@ -640,3 +640,7 @@ a:hover {
 svg {
   margin-bottom: 0.5em;
 }
+
+.ant-menu-title-content {
+  text-decoration: none;
+}
